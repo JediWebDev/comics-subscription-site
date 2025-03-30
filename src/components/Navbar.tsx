@@ -10,7 +10,7 @@ export default function Navbar() {
         <Link href="/subscribe">Subscribe</Link>
         <Link href="/account">
           <Avatar>
-            <AvatarImage src="" />
+            <AvatarImage src="@/public/avatar-icon.png" />
             <AvatarFallback>U</AvatarFallback>
           </Avatar>
         </Link>
