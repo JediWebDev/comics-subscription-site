@@ -1,9 +1,9 @@
 import PlanCard from "@/components/PlanCard";
 
 const plans = [
-  { name: "Bronze", price: "$5/mo", features: ["3 images/month"] },
-  { name: "Silver", price: "$15/mo", features: ["7 images/month"] },
-  { name: "Gold", price: "$30/mo", features: ["Unlimited images"] },
+  { name: "Bronze", price: "$5/mo", features: ["unlocks 3 comics/month, unlimited gallery and demos to games"] },
+  { name: "Silver", price: "$15/mo", features: ["unlocks 7 comics/month, unlimited gallery and limited games"] },
+  { name: "Gold", price: "$30/mo", features: ["unlocks unlimited comics, gallery and games"] },
 ];
 
 export function SubscribePage() {
