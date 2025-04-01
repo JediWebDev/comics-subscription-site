@@ -36,9 +36,9 @@ export default function Navbar() {
           </Link>
           {/* Desktop links (gallery/comics/games) hidden on mobile */}
           <div className="hidden md:flex gap-4">
-            <Link href="/gallery">Gallery</Link>
-            <Link href="/comics">Comics</Link>
-            <Link href="/games">Games</Link>
+            <Link href="/gallery/page.tsx">Gallery</Link>
+            <Link href= "/comics/page.tsx">Comics</Link>
+            <Link href="/games/page.tsx">Games</Link>
           </div>
         </div>
 
@@ -57,13 +57,13 @@ export default function Navbar() {
       {/* Mobile menu (collapsible) */}
       {isOpen && (
         <div className="md:hidden flex flex-col gap-4 px-4 pb-4">
-          <Link href="/gallery" onClick={() => setIsOpen(false)}>
+          <Link href="/gallery/page.tsx" onClick={() => setIsOpen(false)}>
             Gallery
           </Link>
-          <Link href="/comics" onClick={() => setIsOpen(false)}>
+          <Link href="/comics/page.tsx" onClick={() => setIsOpen(false)}>
             Comics
           </Link>
-          <Link href="/games" onClick={() => setIsOpen(false)}>
+          <Link href="/games/page.tsx" onClick={() => setIsOpen(false)}>
             Games
           </Link>
         </div>
